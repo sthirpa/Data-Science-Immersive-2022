@@ -80,8 +80,7 @@ Besides [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html), I
 |Testing dataset|After the model is built, testing data once again validates that it can make accurate predictions. If training and validation data include labels to monitor performance metrics of the model, the testing data should be unlabeled. Test data provides a final, real-world check of an unseen dataset to confirm that the ML algorithm was trained effectively.[Refer validation dataset, below]|
 |Training dataset|Training of deep neural nets is performed based on an existing labelled dataset, called training dataset ("supervised machine learning")|
 |Validation dataset|During training, validation data infuses new data into the model that it hasn’t evaluated before. Validation data provides the first test against unseen data, allowing data scientists to evaluate how well the model makes predictions based on the new data. Not all data scientists use validation data, but it can provide some helpful information to optimize hyper-parameters, which influence how the model assesses data ([source](https://www.applause.com/blog/training-data-validation-data-vs-test-data)).|
-- As interactive application, I used `streamlit` app for demonstration of my trained model. The `url.py` script predicts online picture using their **URL** and the `file.py` predicts images from local machine.  
-
+ * For the user interface application on `streamlit`, I made `url.py` for image prediction using their URL address for online images and the `file.py` predicts images saved on local machine, just by running either `streamlit run url.py` or `streamlit run file.py` as preferred.
 ## References:
 - E.Mohammed, Deep Learning for Vision Systems, Manning Publications Co, 2020.
 - I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.

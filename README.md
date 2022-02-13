@@ -1,9 +1,9 @@
 # Data_Scince_Immersive-at-General-Assembly
 Organization of my repos:
-* `Courses` is a folder containing all the class lectures for the whole immersive training while at **General Assembly**.
+* `DSIR-Courses` is a folder containing all the class lectures for the whole immersive training while at **General Assembly**.
   * [Organization of the courses are summarized README section](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly/tree/Hirpa/Class-Notes)
 * `final capstone` folder is my final capstone project titled: `Image classification with Neural Networks`.
-  * For the user interface application on `streamlit`, I made `url.py` for image prediction using their URL address for online images and the `file.py` predicts images saved on local machine, just by running either `streamlit run url.py` or `streamlit run file.py` as preferred.
+
 * My other projects include:
   * **Project 1:** `Standardized Test Analysis`
     * *My Topic:* `2018-2019 ACT and SAT Standardized Test Analysis`
