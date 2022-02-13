@@ -1,0 +1,7 @@
+*.ipynb_checkpoints
+.DS_Store
+
+data/vectorized_text.csv
+data/austen_poe.csv
+
+*.pkl

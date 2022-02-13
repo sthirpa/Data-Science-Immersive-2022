@@ -1,0 +1,21 @@
+"id","first_name","house","nickname","alive"
+1,"jaime","lannister","kingslayer",1
+2,"eddard","stark","ned",0
+3,"oberyn","martell","viper",0
+4,"robert","baratheon",NULL,0
+5,"arya","stark","no one",1
+6,"aegon","targaryen","jon",1
+7,"theon","greyjoy","reek",0
+8,"yara","greyjoy",NULL,1
+9,"tywin","lannister",NULL,0
+10,"brynden","tully","blackfish",0
+11,"cersei","lannister","queen",1
+12,"brandon","stark","three-eyed raven",1
+13,"sansa","stark",NULL,1
+14,"tyrion","lannister","imp",1
+15,"brienne","tarth",NULL,1
+16,"samwell","tarly","sam",1
+17,"great jon","umber",NULL,0
+18,"barristan","selmy",NULL,0
+19,"aerys","targaryen","mad king",0
+20,"alannys","harlow",NULL,0
