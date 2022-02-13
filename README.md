@@ -21,12 +21,12 @@ This project builds a model that accurately classifies images based on unique fe
 >The `CIFAR-10` dataset consists of `60000` 32x32 color images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. <br>
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class ([source](https://www.cs.toronto.edu/~kriz/cifar.html)).
 
-I manually split the `50,000` training images into `30,000 images` for training and `20,000 images` for validation of my models and the `10,000 images` are for testing ([refer my jupyter notebook](https://github.com/sthirpa/Data_Scince_Immersive/blob/Hirpa/codes%20in%20JupyterNotebook/CIFAR-10-SH.ipynb)).
+For my model training purpose, I split the `50,000` training images into `49,000 images` for training and `10,000 images` for validation of my models and the `10,000 images`for testing the performance of my trained model.
 
 ```   
 CIFAR-10 Dataset
-    |-- Train: 30,000 images
-    |-- Validation: 20,000 images
+    |-- Train: 49,000 images
+    |-- Validation: 10,000 images
     |-- Test: 10,000 images
 
 ```  
@@ -80,7 +80,8 @@ Besides [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html), I
 |Testing dataset|After the model is built, testing data once again validates that it can make accurate predictions. If training and validation data include labels to monitor performance metrics of the model, the testing data should be unlabeled. Test data provides a final, real-world check of an unseen dataset to confirm that the ML algorithm was trained effectively.[Refer validation dataset, below]|
 |Training dataset|Training of deep neural nets is performed based on an existing labelled dataset, called training dataset ("supervised machine learning")|
 |Validation dataset|During training, validation data infuses new data into the model that it hasn’t evaluated before. Validation data provides the first test against unseen data, allowing data scientists to evaluate how well the model makes predictions based on the new data. Not all data scientists use validation data, but it can provide some helpful information to optimize hyper-parameters, which influence how the model assesses data ([source](https://www.applause.com/blog/training-data-validation-data-vs-test-data)).|
-- As my `next step` after this capstone project, I will try to build streamlit app (or GUI) to make image classification more interactive.
+- As also used `streamlit` app for demonstration of my trained model. The `url.py` script predicts online picture using their **URL** and the `file.py` predicts images from local machine.  
+
 ## References:
 - E.Mohammed, Deep Learning for Vision Systems, Manning Publications Co, 2020.
 - I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.
