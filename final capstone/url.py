@@ -5,15 +5,21 @@ import requests
 import numpy as np
 
 # Create a title of web App and Introductory note.
-st.title('Welcome to my Image Classification Project!')
-st.text('This app classifies images whether they belong to any of the 10 classes on which my ')
-st.text('model was trained. The dataset I used for my capstone project was ')
-st.text('the CIFAR-10 image dataset and the class names are:')
-st.text('class_names = ["airplane", "automobile" , "bird" , "cat" , "deer" , "dog",')
-st.text('"frog" ,horse" , "ship" , "truck"].')
-st.text("For better prediction, please use URL for images among the 'class_names'...")
-st.text("My model is expected to predict with 86% accuracy, but let's see :)")
 
+st.markdown('''
+## Welcome to my Image Classification Project!
+This app classifies images whether they belong to any of the 10 classes on which my
+model was trained. The dataset I used for my capstone project was
+the `CIFAR-10` image dataset and the class names are:
+
+class_names = ["airplane", "automobile" , "bird" , "cat" , "deer" , "dog", -
+"frog" ,horse" , "ship" , "truck"].
+
+* For better prediction, please use URL for images among the 'class_names'...
+
+
+My model is expected to predict with 86% accuracy, but let's see :
+''')
 
 
 #load model, set cache to prevent reloading
