@@ -15,7 +15,7 @@ the `CIFAR-10` image dataset and the class names are:
 class_names = ["airplane", "automobile" , "bird" , "cat" , "deer" , "dog", -
 "frog" ,horse" , "ship" , "truck"].
 
-* For better prediction, please use URL for images among the 'class_names'...
+* For better prediction, please use URL for images among the above 'class_names'.
 
 
 My model is expected to predict with 86% accuracy, but let's see :
