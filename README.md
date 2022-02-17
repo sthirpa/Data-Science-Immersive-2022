@@ -2,11 +2,10 @@
 (*From Nov. 01/2021 to Feb. 07/2022*). <br>
 
 Organization of my repos:
-* `DSIR-Courses` is a folder containing all the course materials for the whole immersive training **General Assembly**.
-  * [Organization of the courses are summarized README section](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly/tree/Hirpa/Class-Notes)
-* `Final-project-capstone` folder is my final capstone project titled: `Image classification with Neural Networks`.
+* `DSIR-Courses`: contains all the course materials for the whole immersive training offered at **General Assembly**.
+* `Final-project-capstone`: contains my final capstone project titled: `Image classification with Neural Networks`.
 
-* My projects include:
+* The 6 main projects I did during the course include:
   * **Project 1:** `Standardized Test (ACT/SAT) Analysis`
     * *Dataset:* `2018 and 2019 ACT and SAT dataset`
   * **Project 2:** `Predicting Ames Housing Prices`
