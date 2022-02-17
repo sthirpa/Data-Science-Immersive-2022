@@ -1,4 +1,5 @@
-#### Data Scince Immersive at General Assembly
+#### Data Scince Immersive at General Assembly <br>
+**From Nov. 01/2021 to Feb. 07/2022** <br> 
 Organization of my repos:
 * `DSIR-Courses` is a folder containing all the course materials for the whole immersive training **General Assembly**.
   * [Organization of the courses are summarized README section](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly/tree/Hirpa/Class-Notes)
