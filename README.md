@@ -2,7 +2,7 @@
 Organization of my repos:
 * `DSIR-Courses` is a folder containing all the course materials for the whole immersive training **General Assembly**.
   * [Organization of the courses are summarized README section](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly/tree/Hirpa/Class-Notes)
-* `Final-Capstone` folder is my final capstone project titled: `Image classification with Neural Networks`.
+* `Final-project-capstone` folder is my final capstone project titled: `Image classification with Neural Networks`.
 
 * My projects include:
   * **Project 1:** `Standardized Test (ACT/SAT) Analysis`
