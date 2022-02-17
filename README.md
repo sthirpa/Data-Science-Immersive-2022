@@ -1,5 +1,5 @@
-#### Data Scince Immersive at [General Assembly](https://generalassemb.ly/education/data-science/san-francisco)
-(From Nov. 01/2021 to Feb. 07/2022). <br>
+### Data Scince Immersive at [General Assembly](https://generalassemb.ly/education/data-science/san-francisco)
+(*From Nov. 01/2021 to Feb. 07/2022*). <br>
 
 Organization of my repos:
 * `DSIR-Courses` is a folder containing all the course materials for the whole immersive training **General Assembly**.
