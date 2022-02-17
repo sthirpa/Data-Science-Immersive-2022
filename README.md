@@ -20,4 +20,4 @@ Organization of my repos:
   * **Final Project**: capstone project: Image Classification Using Neural Networks
     * *Dataset:* `CIFAR-10` image dataset.
 
-  are all the projects of mine that I did while I was in the immersive training with some updates added after graduation.
+  
